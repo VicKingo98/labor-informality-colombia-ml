@@ -1,0 +1,18 @@
+# Data files — not tracked due to size
+data/raw/
+*.csv
+*.xlsx
+ 
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+ 
+# Environment
+.env
+venv/
+.venv/
+ 
+# OS files
+.DS_Store
+Thumbs.db
