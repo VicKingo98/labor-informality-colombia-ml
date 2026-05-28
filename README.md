@@ -11,7 +11,17 @@ This project applies supervised machine learning techniques to predict the proba
 The goal is to identify workers most likely to be informal based on observable employment characteristics, contributing to a better understanding of informality patterns in the Colombian labor market.
 
 ---
+## ⚠️ Note on Data Access
 
+The raw data files used in this project are not included in this repository due to file size constraints (~480MB total).
+
+To run this notebook locally, follow these steps:
+
+1. Download the **GEIH 2023 monthly files** from the [DANE official microdata portal](https://microdatos.dane.gov.co/index.php/catalog/ENChogares)
+2. Place the downloaded CSV files inside a `data/raw/` folder in the root of this repository
+3. Update the file paths in the **Data Loading** section of the notebook to point to your local `data/raw/` folder instead of the original Google Drive paths
+
+---
 ## Problem Definition
 
 - **Type:** Binary supervised classification
